@@ -1,0 +1,10 @@
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>关于Running</view>
+  <view class='text-content'>
+    <view>Hi！欢迎使用 Running</view>
+    <view class='margin-top-sm'>该项目是一个跑步软件，可以用来记录跑步时间跑步距离以及轨迹等等，提供天气模块可以查询当地以及其他地方的天气，可以对跑步状况进行分析。</view>
+
+    <view class='margin-top-sm'>更多功能敬请期待！</view>
+  </view>
+</view>

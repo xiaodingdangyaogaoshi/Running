@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/run/run",
+    "pages/about/about",
+    "pages/logs/logs",
+    "pages/animation/animation",
+    "pages/about/about/about",
+    "pages/about/log/log",
+    "pages/about/test/list",
+    "pages/about/test/filter",
+    "pages/about/home/home",
+    "pages/indexweather/index",
+    "pages/add/add",
+    "pages/payment/donate"
+    
+  ],
+  "permission":{
+  "scope.userLocation": {
+  "desc": "您运动的位置将会被记录哟"
+}
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    
+    "navigationBarTitleText": "Running",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#0099FF"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "seletedColor": "#1AAD16",
+    "list": [
+      {
+        "pagePath": "pages/run/run",
+        "text": "跑步",
+        "iconPath": "images/tabbar/basics.png",
+        "selectedIconPath": "images/tabbar/basics_cur.png"
+      },
+      
+      {
+        "pagePath": "pages/indexweather/index",
+        "text": "天气",
+        "iconPath": "images/tabbar/plugin.png",
+        "selectedIconPath": "images/tabbar/plugin_cur.png"
+      },
+      {
+        "pagePath": "pages/about/home/home",
+        "text": "我的",
+        "iconPath": "images/tabbar/about.png",
+        "selectedIconPath": "images/tabbar/about_cur.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}
